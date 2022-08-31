@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall -Werror -Wextra -pedantic -std=gnu89
+CFLAGS=-Wall -Werror -Wextra -pedantic -std=gnu89 -g
 RM=rm -rf
 SRC=binary_tree_print.c
 BETTY=betty
