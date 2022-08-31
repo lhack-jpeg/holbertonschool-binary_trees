@@ -72,6 +72,7 @@ int binary_tree_is_full(const binary_tree_t *tree)
 	/* find actual amount of leaves from node */
 	a_leaves = binary_tree_leaves(tree);
 
+	printf("h_leaves: %d, a_leaves: %d\n",h_leaves, a_leaves);
 	if (h_leaves == a_leaves)
 		return (1);
 
