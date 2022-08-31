@@ -110,6 +110,11 @@ SRC18= 	18-main.c \
 	18-binary_tree_uncle.c \
 	0-binary_tree_node.c
 
+TARGET19=100-ancestor
+SRC19=	100-main.c \
+	100-binary_trees_ancestor.c \
+	0-binary_tree_node.c
+
 STDSRC= 0-binary_tree_node.c \
 	1-binary_tree_insert_left.c \
 	2-binary_tree_insert_right.c \
