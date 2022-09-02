@@ -29,7 +29,7 @@ bst_t *bst_insert(bst_t **tree, int value)
 	{
 		if (!node->left)
 		{
-			node->left = binary_tree_node(node->left, value);
+			node->left = binary_tree_node(node, value);
 			return (node->left);
 		}
 
@@ -39,7 +39,7 @@ bst_t *bst_insert(bst_t **tree, int value)
 	{
 		if (!node->right)
 		{
-			node->right = binary_tree_node((node->right), value);
+			node->right = binary_tree_node((node), value);
 			return (node->right);
 		}
 
