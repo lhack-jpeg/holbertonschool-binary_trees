@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-Wall -Werror -Wextra -pedantic -std=gnu89 -g
 RM=rm -rf
-SRC=binary_tree_print.c
+SRC=print_binary_tree.c
 BETTY=betty
 
 TARGET0=0-node
@@ -126,7 +126,7 @@ SRC21=	102-main.c \
 	102-binary_tree_is_complete.c \
 	0-binary_tree_node.c \
 	3-binary_tree_delete.c
-	
+
 TARGET22=103-rotl
 SRC22=	103-binary_tree_rotate_left.c \
 	103-main.c \
@@ -188,7 +188,7 @@ STDSRC= 0-binary_tree_node.c \
 	111-bst_insert.c \
 	112-array_to_bst.c \
 	113-bst_search.c
-	
+
 all:	0 1 2 3 4 5 6 7 8 9 10 11 12 13
 
 clean:
